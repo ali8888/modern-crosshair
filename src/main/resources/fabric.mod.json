@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "codename_redpanda",
+  "id": "moderncrosshair",
   "version": "${version}",
-  "name": "Codename Redpanda",
-  "description": "This mod currently aims to bring a certain QoL feature, or multiple..",
+  "name": "Modern Crosshair",
+  "description": "Prevents the crosshair from appearing in third person modes.",
   "authors": [
     "Lymesque"
   ],
   "contact": {
-    "homepage": "https://legacyfabric.net/",
-    "sources": "https://github.com/Legacy-Fabric/fabric-example-mod"
+    "homepage": "https://github.com/ali8888",
+    "sources": "https://github.com/ali8888/modern-crosshair"
   },
   "license": "CC0-1.0",
-  "icon": "assets/codename_redpanda/icon.png",
+  "icon": "assets/moderncrosshair/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.CodenameRedPanda"
+      "net.fabricmc.lymesque.ModernCrosshair"
     ]
   },
   "mixins": [
-    "codename_redpanda.mixins.json"
+    "moderncrosshair.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.19",

@@ -1,14 +1,12 @@
-package net.fabricmc.example;
+package net.fabricmc.lymesque;
 
 import net.fabricmc.api.ModInitializer;
 
-public class CodenameRedPanda implements ModInitializer {
+public class ModernCrosshair implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
-		System.out.println("Successfully loaded Codename Redpanda.");
 	}
 }

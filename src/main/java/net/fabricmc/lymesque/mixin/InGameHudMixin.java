@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin;
+package net.fabricmc.lymesque.mixin;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawableHelper;
@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(InGameHud.class)
-public class ModernCrosshair extends DrawableHelper {
+public class InGameHudMixin extends DrawableHelper {
 
     @Shadow @Final private MinecraftClient client;
 
